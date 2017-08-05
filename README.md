@@ -9,12 +9,15 @@ Guangle Yao, Tao Lei, Jiandan Zhong, Ping Jiang, Wenwu Jia<br>
 　　GroundTruth:      Pixel-wise GroundTruth of foreground<br>
 ./BSResults:          Detected foreground masks by BS<br>
 ./BSResultsM:         Detected foreground masks by BS+MedianFilter<br>
-./BSResultsMM:        Detected foreground masks by BS+MedianFilter+MorphologicalOperation
+./BSResultsMM:        Detected foreground masks by BS+MedianFilter+MorphologicalOperation<br>
+./BSResultsBGSLibrary Results of the BS from the BGSlibrary<br>
 
 16 BS algorithms are evaluated in Remote Scene IR Dataset:<br>
 AdaptiveMedian[1], Bayes[2], Codebook[3,4], Gaussian[5], GMG[6], GMM1[7], GMM2[8], GMM3[9], KDE[10], KNN[9], PBAS[11], PCAWS[12], Sigma-delta[13], SOBS[14], Texture[15], ViBe[16]
 
 The implementations and parameter settings are detailed in the manuscript.
+
+For a extensive evaluation, we also evaluate 24 BS algorithms implemented in BGSLibrary[17]<br>
 
 [1] N.J.B. McFarlane et al., Segmentation and tracking of piglets in images<br>
 [2] L. Li et al., Foreground object detection from videos containing complex background<br>
@@ -33,3 +36,4 @@ The implementations and parameter settings are detailed in the manuscript.
 [15] M. Heikkila et al., A texture-based method for modeling the background and detecting moving objects<br>
 [16] O. Barnich et al., ViBe: a universal background subtraction algorithm for video sequences<br>
 
+[17]A. Sobral, BGSLibrary: an opencv c++ background subtraction library
