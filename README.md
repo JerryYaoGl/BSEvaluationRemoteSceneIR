@@ -1,8 +1,8 @@
 # BSEvaluationRemoteSceneIR
 
-Manuscript:
-Comparative Evaluation of Background Subtraction Algorithms in Remote Scene Video Captured by MWIR Sensor<br>
-Guangle Yao, Tao Lei, Jiandan Zhong, Ping Jiang, Wenwu Jia<br>
+If you use this dataset, please cite the following papers:<br>
+
+Yao G, Lei T, Zhong J, Jiang P, Jia W. Comparative Evaluation of Background Subtraction Algorithms in Remote Scene Videos Captured by MWIR Sensors. Sensors. 2017; 17(9):1945.<br>
 
 ./RemoteSceneIRDataset:       Remote Scene IR Dataset<br>
 　　IRVideoSequence:  Frames caputered by MWIR camera<br>
